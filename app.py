@@ -11,7 +11,7 @@ def homepage():
 def about():
     return render_template("about.html")
 
-
+# Founder Page
 @app.route("/founder")
 def founder():
     return render_template("founder.html")
@@ -40,4 +40,5 @@ def join():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
 
